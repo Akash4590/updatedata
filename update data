@@ -1,0 +1,25 @@
+import { useState } from 'react'
+function App() {
+ let[data,setdata]=useState(0);or useState("Akash")
+ function  update() {
+  setdata(data+1)
+//setdata(khan);
+ }
+ console.log('=============')
+ return (
+  <>
+    <div>
+      
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+       <h1>{data}</h1>
+       <button onClick={()=>update()}>update data</button>
+         </div>
+      </>
+      
+  )
+       
+}
+update data through use state in function 
+how we can use state in function
